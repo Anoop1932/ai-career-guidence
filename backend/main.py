@@ -5,8 +5,8 @@ from langchain_core.messages import HumanMessage, AIMessage
 import datetime
 import httpx
 
-from agent import graph
-from database import save_career_data, CareerData
+from backend.agent import graph
+from backend.database import save_career_data, CareerData
 
 app = FastAPI(title="AI Career Guidance API")
 
