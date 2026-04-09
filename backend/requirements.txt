@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langgraph
+langchain-openai
+supabase
+pydantic
+python-dotenv
+httpx
